@@ -1,9 +1,17 @@
+* {
+	margin: 0px;
+  	border: 0px;
+  	padding: 0px;
+}
+
 body {
-	background-color: black;
 	color: white;
-	background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
 	font-family: Lucida Sans;
-	background-size: cover;
+}
+#grad {
+	width: 100vw;
+	height: 100vh;
+	background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
 }
 i {
 	margin-right: 5px;
@@ -13,7 +21,6 @@ i {
 	justify-content: center;
 	align-items: center;
 	display: flex;
-	margin: 50px 150px;
 	padding: 15px 15px;
 	border-radius: 15px;
 	transition: 0.25s;
@@ -47,10 +54,6 @@ i {
 }
 
 @media screen and (max-width: 850px) {
-	body {
-		background-size: cover;
-        height: 100%;
-	}
 	.main-container {
 		margin: 50px 0px;
 		
