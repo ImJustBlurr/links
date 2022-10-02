@@ -2,7 +2,7 @@ body {
 	background-color: black;
 	color: white;
 	background-image: url("../img/bg.jpg");
-	background-size: auto;
+	background-size: cover;
  	background-attachment: fixed;
 	background-repeat: no-repeat;
 	font-family: Lucida Sans;
