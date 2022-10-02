@@ -2,9 +2,6 @@ body {
 	background-color: black;
 	color: white;
 	background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
-	background-size: cover;
- 	background-attachment: fixed;
-	background-repeat: no-repeat;
 	font-family: Lucida Sans;
 }
 i {
