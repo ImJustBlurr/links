@@ -1,7 +1,7 @@
 body {
 	background-color: black;
 	color: white;
-	background-image: url("../img/bg.jpg");
+	background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
 	background-size: cover;
  	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -22,7 +22,7 @@ i {
 }
 #pfp {
 	border-radius: 50%;
-	border: 5px solid #0099ff;
+	border: 5px solid #bcbcf2;
 }
 .sub-container {
 	justify-content: center;
@@ -49,10 +49,6 @@ i {
 }
 
 @media screen and (max-width: 850px) {
-	body {
-		background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
-	}
-	
 	.main-container {
 		margin: 50px 0px;
 	}
