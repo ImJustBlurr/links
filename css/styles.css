@@ -51,6 +51,10 @@ i {
 	width: 100%;
 	max-width: 500px;
 }
+.sub-container h1 {
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
 .sub-container a {
 	background-color: #011528;
 	padding: 15px 0px;
