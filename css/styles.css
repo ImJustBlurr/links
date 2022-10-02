@@ -3,6 +3,7 @@ body {
 	color: white;
 	background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
 	font-family: Lucida Sans;
+	height: auto;
 }
 i {
 	margin-right: 5px;
