@@ -7,11 +7,21 @@
 body {
 	color: white;
 	font-family: Lucida Sans;
+	background: linear-gradient(to right, #fc5c7d, #6a82fb);
+	background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:100%;
+    width:100%; 
 }
 #grad {
 	width: 100vw;
 	height: 100vh;
-	background: linear-gradient(to right, #fc5c7d, #6a82fb);
+	
 }
 i {
 	margin-right: 5px;
