@@ -50,7 +50,7 @@ i {
 
 @media screen and (max-width: 850px) {
 	body {
-		background-image: url("../img/bgmobile.jpg");
+		background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
 	}
 	
 	.main-container {
