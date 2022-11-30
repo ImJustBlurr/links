@@ -1,72 +1,78 @@
 * {
-	margin: 0px;
-  	border: 0px;
-  	padding: 0px;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
 }
 
-html{height:100%;
-	width:100%}
+html {
+  height: 100%;
+  width: 100%;
+}
 
 body {
-	color: white;
-	font-family: Trebuchet MS;
-	background: linear-gradient(to right, #fc5c7d, #6a82fb);
-	background-repeat: no-repeat; 
-    background-position: center;
-    background-attachment: fixed;       
-    webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height:100%;
-    width:100%; 
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  /* background: linear-gradient(to right, #fc5c7d, #6a82fb); */
+  background-color: #192734;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
 }
 #grad {
-	width: 100vw;
-	height: 100vh;
-	
+  width: 100vw;
+  height: 100vh;
 }
 i {
-	margin-right: 5px;
-	text-align: center;
+  margin-right: 5px;
+  text-align: center;
 }
 .main-container {
-	justify-content: center;
-	align-items: center;
-	display: flex;
-	padding: 15px 15px;
-	border-radius: 15px;
-	transition: 0.25s;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 15px 15px;
+  border-radius: 15px;
+  transition: 0.25s;
 }
 #pfp {
-	border-radius: 50%;
-	border: 5px solid #bcbcf2;
-	margin: 15px 0px;
+  border-radius: 50%;
+  border: 5px solid #141f29;
+  box-shadow: 0px 0px 18px 2px black;
+  margin: 15px 0px;
 }
 .sub-container {
-	justify-content: center;
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	color: white;
-	width: 100%;
-	max-width: 500px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 100%;
+  max-width: 500px;
 }
 .sub-container h4 {
-	margin-bottom: 20px;
+  margin-bottom: 20px;
+  color: slategray;
 }
 .sub-container a {
-	background-color: #011528;
-	padding: 15px 0px;
-	margin: 20px 10px;
-	text-align: center;
-	color: white;
-	text-decoration: none;
-	border-radius: 8px;
-	width: 100%;
-	transition: 0.15s;
-	font-size: 20px;
+  background-color: #011528;
+  padding: 15px 0px;
+  margin: 20px 10px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  width: 100%;
+  transition: 0.15s;
+  font-size: 20px;
+  border: 2px #a15be4 solid;
+  box-shadow: 0px 0px 10px 1px #a15be4;
 }
 .sub-container a:hover {
-	background-color: #0099ff;
+  background-color: #413f9f;
 }
